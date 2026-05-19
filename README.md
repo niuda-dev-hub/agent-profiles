@@ -10,25 +10,37 @@
 
 ## 📂 仓库结构
 
-```
+```text
 agent-profiles/
-├── README.md               # 本文件 — 仓库介绍与使用说明
-└── profiles/               # 📁 Agent 人事档案目录
-    ├── _template.md        #   档案模板 — 创建新 Agent 档案时使用
-    ├── 初八.md             #   第一个智能体
-    ├── 初九.md             #   第二个智能体
-    └── 小十.md             #   第三个智能体
+├── README.md               # 本文件：仓库介绍、索引说明
+├── MAINTAINING.md          # 维护规范：命名、字段、更新约定
+└── profiles/               # Agent 人事档案目录
+    ├── _template.md        # 档案模板，新建档案时从这里复制
+    └── <Agent名称>.md      # 每个 Agent 一份独立档案
 ```
 
 ---
 
-## 🧑‍💼 现有 Agent
+## 🔎 索引说明
 
-| # | 名称 | ID | 模型 | 状态 | 档案 |
-|---|------|----|------|------|------|
-| 1 | **初八** | `0921a945-...` | `custom:gpt-5.4` | ⏸️ Idle | [📄 查看](profiles/初八.md) |
-| 2 | **初九** | `d934df23-...` | `main` | ⏸️ Idle | [📄 查看](profiles/初九.md) |
-| 3 | **小十** | `b54dd43b-...` | `opencode/big-pickle` | 🟢 Working | [📄 查看](profiles/小十.md) |
+本仓库不再在 README 中维护单独的 Agent 列表，避免与 `profiles/` 目录形成两套信息源。
+
+查找 Agent 时请直接使用：
+
+- `profiles/` 目录：按文件名浏览全部 Agent 档案
+- `profiles/_template.md`：查看标准档案结构
+- 单个档案文件：获取某个 Agent 的完整信息与变更记录
+
+如果后续需要页面化索引，建议基于 `profiles/` 目录自动生成，而不是手工维护 README 表格。
+
+---
+
+## 🗂️ 目录约定
+
+- `profiles/` 下每个 Agent 只保留 **一份主档案**
+- 文件名使用 **Agent 展示名称**，格式为 `<Agent名称>.md`
+- `_template.md` 仅作为模板，不视为正式档案
+- 档案的新增、修改、退役规则统一见 [`MAINTAINING.md`](MAINTAINING.md)
 
 ---
 
@@ -36,29 +48,8 @@ agent-profiles/
 
 每个 Agent 档案使用 **YAML Frontmatter + Markdown** 格式：
 
-- **Frontmatter** (文件开头的 `---` 块) — 结构化元数据，便于机器解析和自动化处理
+- **Frontmatter**（文件开头的 `---` 块）— 结构化元数据，便于机器解析和自动化处理
 - **Markdown 正文** — 人类可读的详细信息，包括简介、能力、行为准则、变更记录等
-
-### 创建新 Agent 档案
-
-```bash
-# 1. 复制模板
-cp profiles/_template.md profiles/新Agent名称.md
-
-# 2. 编辑档案信息
-# 3. 提交并推送
-git add profiles/新Agent名称.md
-git commit -m "add profile: 新Agent名称"
-git push
-```
-
----
-
-## 🔄 维护流程
-
-- **添加新 Agent** → 复制模板，填写信息，提交 PR
-- **更新 Agent 信息** → 修改对应档案文件
-- **Agent 退役** → 将 status 标记为 `archived`，保留档案作为历史记录
 
 ---
 
@@ -68,4 +59,4 @@ git push
 
 ---
 
-_维护者: 小十 (自动创建于 2026-05-19)_
+_维护者: 小十 (自动创建于 2026-05-19，2026-05-19 更新结构说明)_
