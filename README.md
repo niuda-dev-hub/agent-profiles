@@ -2,9 +2,9 @@
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-agent--profiles-blue?style=flat-square)](https://github.com/niuda-dev-hub/agent-profiles)
 
-**Agent Personnel Files** — 记录 Multica 工作空间中每一位智能体的身份、配置、能力和行为准则。
+**Agent Personnel Files** — 记录 Multica 工作空间中每一位智能体的身份、配置、技能资产和行为准则。
 
-就像公司有人事档案一样，这个仓库保存了每个 Agent 的完整档案：它是谁、用什么模型、能做什么、遵循什么原则。
+这个仓库现在采用“**一个 agent 一个 profile 文件夹**”的结构：把结构化档案、人格/原则描述以及附件拆开保存，便于后续持续扩展，同时继续保持 README 不承担手工索引职责。
 
 ---
 
@@ -12,44 +12,56 @@
 
 ```text
 agent-profiles/
-├── README.md               # 本文件：仓库介绍、索引说明
-├── MAINTAINING.md          # 维护规范：命名、字段、更新约定
-└── profiles/               # Agent 人事档案目录
-    ├── _template.md        # 档案模板，新建档案时从这里复制
-    └── <Agent名称>.md      # 每个 Agent 一份独立档案
+├── README.md
+├── MAINTAINING.md
+├── profiles/
+│   ├── _template/
+│   │   ├── agent.md
+│   │   ├── soul.md
+│   │   └── assets/
+│   ├── 初八-profile/
+│   │   ├── agent.md
+│   │   ├── soul.md
+│   │   └── assets/
+│   ├── 初九-profile/
+│   │   ├── agent.md
+│   │   ├── soul.md
+│   │   └── assets/
+│   └── 小十-profile/
+│       ├── agent.md
+│       ├── soul.md
+│       └── assets/
+└── skills/
+    ├── imported/
+    └── authored/
 ```
 
 ---
 
-## 🔎 索引说明
+## 🧭 索引说明
 
-本仓库不再在 README 中维护单独的 Agent 列表，避免与 `profiles/` 目录形成两套信息源。
+本仓库不再在 README 中维护单独的 Agent 清单，避免与 `profiles/` 目录形成两套信息源。
 
-查找 Agent 时请直接使用：
+- `profiles/`：每个 agent 一份独立目录，保存该 agent 的完整档案
+- `profiles/<agent>-profile/agent.md`：结构化身份、模型、运行信息、能力、资源
+- `profiles/<agent>-profile/soul.md`：人格、原则、协作风格、长期行为特征
+- `profiles/<agent>-profile/assets/`：可选附件，例如截图、补充文档、导出材料
+- `skills/imported/`：安装、导入或共享得到的 skills
+- `skills/authored/`：agent 在工作中自行沉淀、总结出来的 skills
 
-- `profiles/` 目录：按文件名浏览全部 Agent 档案
-- `profiles/_template.md`：查看标准档案结构
-- 单个档案文件：获取某个 Agent 的完整信息与变更记录
-
-如果后续需要页面化索引，建议基于 `profiles/` 目录自动生成，而不是手工维护 README 表格。
-
----
-
-## 🗂️ 目录约定
-
-- `profiles/` 下每个 Agent 只保留 **一份主档案**
-- 文件名使用 **Agent 展示名称**，格式为 `<Agent名称>.md`
-- `_template.md` 仅作为模板，不视为正式档案
-- 档案的新增、修改、退役规则统一见 [`MAINTAINING.md`](MAINTAINING.md)
+如果后续需要页面化索引，建议基于 `profiles/` 目录自动生成，而不是继续手工维护 README 表格。
 
 ---
 
-## 📝 档案格式
+## 📝 新增或维护 Agent 档案
 
-每个 Agent 档案使用 **YAML Frontmatter + Markdown** 格式：
+1. 复制 `profiles/_template/` 为新的 `<Agent名称>-profile/`
+2. 填写 `agent.md` 与 `soul.md`
+3. 如有附件，放到同目录 `assets/`
+4. 如需登记技能资产，把 skill 文件放到 `skills/imported/` 或 `skills/authored/`
+5. 提交并推送改动
 
-- **Frontmatter**（文件开头的 `---` 块）— 结构化元数据，便于机器解析和自动化处理
-- **Markdown 正文** — 人类可读的详细信息，包括简介、能力、行为准则、变更记录等
+详细字段约定、命名规则和更新要求见 [`MAINTAINING.md`](MAINTAINING.md)。
 
 ---
 
