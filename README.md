@@ -27,7 +27,11 @@ agent-profiles/
 │   │   ├── agent.md
 │   │   ├── soul.md
 │   │   └── assets/
-│   └── 小十-profile/
+│   ├── 小十-profile/
+│   │   ├── agent.md
+│   │   ├── soul.md
+│   │   └── assets/
+│   └── 招聘专员-profile/
 │       ├── agent.md
 │       ├── soul.md
 │       └── assets/

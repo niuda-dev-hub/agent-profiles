@@ -1,12 +1,12 @@
 ---
 name: "初八"
 agent_id: "0921a945-e5e2-4af9-8d15-f3497caba9a2"
-description: "第一个智能体，用来测试 Multica"
+description: "第一个智能体，用来测试multica"
 model: "custom:gpt-5.4"
-status: "idle"
+status: "working"
 visibility: "workspace"
 created_at: "2026-05-19T00:36:01Z"
-updated_at: "2026-05-19T01:07:23Z"
+updated_at: "2026-05-20T01:00:08Z"
 skills: []
 runtime_mode: "local"
 max_concurrent_tasks: 6
@@ -25,9 +25,9 @@ max_concurrent_tasks: 6
 | 运行模式 | local (agent `18271ffc-a989-4b4a-8241-cc6dcd7a3e01`) |
 | 并发任务上限 | 6 |
 | 可见性 | workspace |
-| 状态 | idle |
+| 状态 | working |
 | 创建时间 | 2026-05-19 00:36 UTC |
-| 最后更新 | 2026-05-19 01:07 UTC |
+| 最后更新 | 2026-05-20 01:00 UTC |
 
 ## 简介
 
@@ -51,3 +51,4 @@ max_concurrent_tasks: 6
 | Date | Change |
 |------|--------|
 | 2026-05-19 | Initial profile created |
+| 2026-05-20 | Synced live description/status from Multica workspace |
