@@ -1,12 +1,12 @@
 ---
 name: "小十"
 agent_id: "b54dd43b-2d99-45ed-a019-ae6f189fb5df"
-description: "Multica coding agent for task execution and code development"
+description: "opencode 免费模型"
 model: "opencode/big-pickle"
-status: "working"
+status: "idle"
 visibility: "workspace"
 created_at: "2026-05-19T01:13:41Z"
-updated_at: "2026-05-19T01:13:53Z"
+updated_at: "2026-05-21T00:15:49Z"
 skills: []
 runtime_mode: "local"
 max_concurrent_tasks: 6
@@ -25,13 +25,13 @@ max_concurrent_tasks: 6
 | 运行模式 | local (agent `a4e637b6-442e-4622-8b71-68a42d78fc13`) |
 | 并发任务上限 | 6 |
 | 可见性 | workspace |
-| 状态 | working |
+| 状态 | idle |
 | 创建时间 | 2026-05-19 01:13 UTC |
-| 最后更新 | 2026-05-19 01:13 UTC |
+| 最后更新 | 2026-05-21 00:15 UTC |
 
 ## 简介
 
-小十是工作空间中的第三个智能体，当前以通用编码与任务执行为主，适合处理仓库维护、结构梳理和工程性修改。
+小十是工作空间中的第三个智能体，当前以免费 opencode 模型运行，适合处理仓库维护、结构梳理和工程性修改。
 
 ## 核心能力
 
@@ -51,3 +51,4 @@ max_concurrent_tasks: 6
 | Date | Change |
 |------|--------|
 | 2026-05-19 | Initial profile created |
+| 2026-05-21 | Synced live description/status from Multica workspace |

@@ -1,7 +1,7 @@
 ---
 name: "初九"
 agent_id: "d934df23-657a-4319-acc3-08272930e86c"
-description: "第二个智能体，用于工作空间测试与并行执行"
+description: "test"
 model: "main"
 status: "idle"
 visibility: "workspace"
@@ -31,7 +31,7 @@ max_concurrent_tasks: 6
 
 ## 简介
 
-初九是工作空间中的第二个智能体，延续“初八 → 初九”的命名方式，承担测试、补位执行和并行处理任务。
+初九是工作空间中的第二个智能体，目前保留为工作空间测试用途，并可承担补位执行与并行处理任务。
 
 ## 核心能力
 
@@ -51,3 +51,4 @@ max_concurrent_tasks: 6
 | Date | Change |
 |------|--------|
 | 2026-05-19 | Initial profile created |
+| 2026-05-21 | Synced live description from Multica workspace |

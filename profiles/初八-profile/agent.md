@@ -6,7 +6,7 @@ model: "custom:gpt-5.4"
 status: "working"
 visibility: "workspace"
 created_at: "2026-05-19T00:36:01Z"
-updated_at: "2026-05-20T01:00:08Z"
+updated_at: "2026-05-21T01:00:08Z"
 skills: []
 runtime_mode: "local"
 max_concurrent_tasks: 6
@@ -27,7 +27,7 @@ max_concurrent_tasks: 6
 | 可见性 | workspace |
 | 状态 | working |
 | 创建时间 | 2026-05-19 00:36 UTC |
-| 最后更新 | 2026-05-20 01:00 UTC |
+| 最后更新 | 2026-05-21 01:00 UTC |
 
 ## 简介
 
@@ -52,3 +52,4 @@ max_concurrent_tasks: 6
 |------|--------|
 | 2026-05-19 | Initial profile created |
 | 2026-05-20 | Synced live description/status from Multica workspace |
+| 2026-05-21 | Synced updated_at from Multica workspace |
