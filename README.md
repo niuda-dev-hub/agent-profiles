@@ -43,6 +43,10 @@ agent-profiles/
 │   │   ├── agent.md
 │   │   ├── soul.md
 │   │   └── assets/
+│   ├── 欧美多语种-Listing-生成-profile/
+│   │   ├── agent.md
+│   │   ├── soul.md
+│   │   └── assets/
 │   ├── 竞品分析与关键词筛选-profile/
 │   │   ├── agent.md
 │   │   ├── soul.md
