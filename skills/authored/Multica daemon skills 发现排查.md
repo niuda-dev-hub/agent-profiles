@@ -13,7 +13,7 @@ source: "multica workspace skill"
 - `multica daemon` 当前运行环境里已经同时满足这两个条件：
   - `HERMES_HOME=/opt/data`
   - `/opt/data/.skills -> /opt/data/skills`
-- 因此，本机这次问题的根因不是 `/opt/data/.skills` 缺失。
+- 因此，**本机这次问题的根因不是 `/opt/data/.skills` 缺失**。
 - 目前更可能的实际情况是：
   1. Hermes 本地 skills 能被 Hermes 自己看到；
   2. 但 Multica 工作区里的 `skill` 资源、以及 agent 的 `skills` 绑定，是另一套数据；
@@ -35,7 +35,7 @@ source: "multica workspace skill"
 - **Hermes local skills**：Hermes CLI 通过 `hermes skills list` 看到的本地/builtin skills
 - **Multica workspace skills**：`multica skill list` 返回的工作区 skill 资源
 
-如果 `hermes skills list` 正常、但 `multica skill list` 没有对应项，说明问题不是扫描不到目录，而是没有导入到 Multica 工作区。
+如果 `hermes skills list` 正常、但 `multica skill list` 没有对应项，说明问题不是扫描不到目录，而是**没有导入到 Multica 工作区**。
 
 ## 复用方案（推荐）
 
