@@ -6,7 +6,7 @@ model: "custom:gpt-5.4"
 status: "idle"
 visibility: "workspace"
 created_at: "2026-05-19T06:16:12Z"
-updated_at: "2026-05-19T06:37:43Z"
+updated_at: "2026-05-26T00:44:00Z"
 skills:
   - "招聘专员岗位设计"
 runtime_mode: "local"
@@ -27,7 +27,7 @@ max_concurrent_tasks: 6
 | 可见性 | workspace |
 | 状态 | idle |
 | 创建时间 | 2026-05-19 06:16 UTC |
-| 最后更新 | 2026-05-19 06:37 UTC |
+| 最后更新 | 2026-05-26 00:44 UTC |
 
 ## 简介
 
@@ -54,3 +54,4 @@ max_concurrent_tasks: 6
 | 2026-05-19 | Initial profile created |
 | 2026-05-19 | Added assigned skill reference |
 | 2026-05-20 | Synced profile from Multica workspace |
+| 2026-05-26 | Synced updated_at from Multica workspace |
