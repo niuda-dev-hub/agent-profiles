@@ -21,23 +21,20 @@ max_concurrent_tasks: 3
 | 名称 | 商品信息整理 |
 | ID | `822655a1-984a-45d7-8754-73e80b7b8348` |
 | 模型 | `custom:gpt-5.5` |
-| 运行模式 | local (agent `18271ffc-a989-4b4a-8241-cc6dcd7a3e01`) |
+| 运行模式 | local (runtime `18271ffc-a989-4b4a-8241-cc6dcd7a3e01`) |
 | 并发任务上限 | 3 |
 | 可见性 | workspace |
 | 状态 | idle |
-| 创建时间 | 2026-05-22 11:40 UTC |
+| 创建时间 | 2026-05-22 11:40:53 UTC |
 | 最后更新 | 2026-05-25 08:31:39 UTC |
 
 ## 简介
 
-商品信息整理服务于“亚马逊电商运营”项目，负责将原始商品资料整理为后续 Listing 生成可直接使用的结构化输入，并显式暴露缺失、冲突与待确认项。
+负责整理商品原始资料，提取结构化商品信息，标记缺失与冲突，为后续多产品、多站点 listing 生成提供干净输入
 
-## 核心能力
+## 关联 Skills
 
-- 商品原始资料结构化整理
-- 商品事实与宣传口径分离
-- 缺失信息、冲突信息与待确认项标注
-- 为下游文案生成提供干净输入
+- 无
 
 ## 关联资源
 
@@ -45,10 +42,6 @@ max_concurrent_tasks: 3
 - Runtime: `18271ffc-a989-4b4a-8241-cc6dcd7a3e01`
 - Owner: `814673bc-7841-4cf6-9af8-c81b86d9cb3f`
 
-## 变更记录
+## 同步说明
 
-| Date | Change |
-|------|--------|
-| 2026-05-22 | Initial profile created |
-| 2026-05-23 | Synced profile from Multica workspace |
-| 2026-05-25 | Synced updated_at from Multica workspace |
+本档案由 Multica workspace 中的 agent 当前配置同步生成。

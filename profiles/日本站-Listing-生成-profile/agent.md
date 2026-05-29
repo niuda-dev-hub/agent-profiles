@@ -21,23 +21,20 @@ max_concurrent_tasks: 3
 | 名称 | 日本站 Listing 生成 |
 | ID | `b1c529cb-a565-44f8-883c-49a8a8f44403` |
 | 模型 | `custom:gpt-5.5` |
-| 运行模式 | local (agent `18271ffc-a989-4b4a-8241-cc6dcd7a3e01`) |
+| 运行模式 | local (runtime `18271ffc-a989-4b4a-8241-cc6dcd7a3e01`) |
 | 并发任务上限 | 3 |
 | 可见性 | workspace |
 | 状态 | idle |
-| 创建时间 | 2026-05-22 12:37 UTC |
+| 创建时间 | 2026-05-22 12:37:44 UTC |
 | 最后更新 | 2026-05-25 09:39:38 UTC |
 
 ## 简介
 
-日本站 Listing 生成服务于“亚马逊电商运营”项目，负责基于上游整理结果与竞品筛选结果，产出适用于亚马逊日本站的最终 Listing 草稿。
+负责基于商品整理结果与竞品筛选结果，生成亚马逊日本站所需的 listing 内容；保留日语专用，但适配多产品
 
-## 核心能力
+## 关联 Skills
 
-- 日本站 Listing 字段生成
-- 多版本标题与多组五点编写
-- HTML 描述与 generic_keywords 约束控制
-- 结合上游输入做一致性校验
+- 无
 
 ## 关联资源
 
@@ -45,11 +42,6 @@ max_concurrent_tasks: 3
 - Runtime: `18271ffc-a989-4b4a-8241-cc6dcd7a3e01`
 - Owner: `814673bc-7841-4cf6-9af8-c81b86d9cb3f`
 
-## 变更记录
+## 同步说明
 
-| Date | Change |
-|------|--------|
-| 2026-05-22 | Initial profile created |
-| 2026-05-23 | Synced profile from Multica workspace |
-| 2026-05-24 | Synced updated_at from Multica workspace |
-| 2026-05-25 | Synced updated_at from Multica workspace |
+本档案由 Multica workspace 中的 agent 当前配置同步生成。
