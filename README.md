@@ -15,6 +15,7 @@
 - [欧美多语种 Listing 生成](profiles/欧美多语种-Listing-生成-profile/agent.md)
 - [工作区巡视官](profiles/工作区巡视官-profile/agent.md)
 - [高级巡视员](profiles/高级巡视员-profile/agent.md)
+- [Listing 合规质检官](profiles/Listing-合规质检官-profile/agent.md)
 
 ## Authored Skills
 

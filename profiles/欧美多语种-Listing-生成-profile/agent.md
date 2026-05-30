@@ -6,7 +6,7 @@ model: "custom:gpt-5.5"
 status: "idle"
 visibility: "workspace"
 created_at: "2026-05-23T07:13:20Z"
-updated_at: "2026-05-23T07:13:49Z"
+updated_at: "2026-05-29T07:53:25Z"
 skills: []
 runtime_mode: "local"
 max_concurrent_tasks: 3
@@ -26,7 +26,7 @@ max_concurrent_tasks: 3
 | 可见性 | workspace |
 | 状态 | idle |
 | 创建时间 | 2026-05-23 07:13:20 UTC |
-| 最后更新 | 2026-05-23 07:13:49 UTC |
+| 最后更新 | 2026-05-29 07:53:25 UTC |
 
 ## 简介
 
