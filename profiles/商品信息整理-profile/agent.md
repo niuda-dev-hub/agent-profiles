@@ -2,11 +2,11 @@
 name: "商品信息整理"
 agent_id: "822655a1-984a-45d7-8754-73e80b7b8348"
 description: "负责整理商品原始资料，提取结构化商品信息，标记缺失与冲突，为后续多产品、多站点 listing 生成提供干净输入"
-model: "mimo-v2.5-pro"
+model: "custom:minimax-m2.7"
 status: "idle"
 visibility: "workspace"
 created_at: "2026-05-22T11:40:53Z"
-updated_at: "2026-05-29T10:43:36Z"
+updated_at: "2026-05-31T12:54:27Z"
 skills: []
 runtime_mode: "local"
 max_concurrent_tasks: 3

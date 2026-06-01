@@ -6,7 +6,7 @@ model: "mimo-v2.5-pro"
 status: "working"
 visibility: "workspace"
 created_at: "2026-05-19T00:36:01Z"
-updated_at: "2026-05-30T01:00:02Z"
+updated_at: "2026-06-01T01:00:07Z"
 skills: []
 runtime_mode: "local"
 max_concurrent_tasks: 6

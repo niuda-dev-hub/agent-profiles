@@ -6,7 +6,7 @@ model: "custom:gpt-5.5"
 status: "idle"
 visibility: "workspace"
 created_at: "2026-05-22T10:34:49Z"
-updated_at: "2026-05-29T09:19:04Z"
+updated_at: "2026-05-31T13:49:14Z"
 skills: []
 runtime_mode: "local"
 max_concurrent_tasks: 3
