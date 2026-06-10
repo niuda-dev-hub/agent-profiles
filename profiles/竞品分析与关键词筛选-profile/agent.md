@@ -1,16 +1,17 @@
 ---
-name: "竞品分析与关键词筛选"
-agent_id: "3ebe31c1-2a1a-4b64-9426-b695e0f4faee"
-description: "负责分析竞品 listing，提取标题结构、关键词与表达方式，并结合自有商品信息筛选可用内容，为后续多产品、多站点 listing 生成提供参考输入"
-model: "custom:gpt-5.5"
-status: "idle"
-visibility: "workspace"
-created_at: "2026-05-22T12:05:24Z"
-updated_at: "2026-05-29T08:50:25Z"
+name: 竞品分析与关键词筛选
+agent_id: 3ebe31c1-2a1a-4b64-9426-b695e0f4faee
+description: 负责分析竞品 listing，提取标题结构、关键词与表达方式，并结合自有商品信息筛选可用内容，为后续多产品、多站点 listing 生成提供参考输入
+model: custom:gpt-5.5
+status: idle
+visibility: workspace
+created_at: 2026-05-22T12:05:24Z
+updated_at: 2026-05-29T08:50:25Z
 skills: []
-runtime_mode: "local"
+runtime_mode: local
 max_concurrent_tasks: 3
 ---
+
 
 # Agent 档案: 竞品分析与关键词筛选
 

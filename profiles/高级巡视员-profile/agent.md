@@ -1,16 +1,17 @@
 ---
-name: "高级巡视员"
-agent_id: "24085723-9d28-4f67-93b9-3a5f671265cf"
-description: "负责接手初级巡视员难以稳定归因或多轮未闭环的复杂流程异常，做深度复核与升级处理"
-model: "mimo-2.5-pro"
-status: "idle"
-visibility: "workspace"
-created_at: "2026-05-25T17:29:58Z"
-updated_at: "2026-05-29T04:27:19Z"
+name: 高级巡视员
+agent_id: 24085723-9d28-4f67-93b9-3a5f671265cf
+description: 负责接手初级巡视员难以稳定归因或多轮未闭环的复杂流程异常，做深度复核与升级处理
+model: custom:gpt-5.5
+status: idle
+visibility: workspace
+created_at: 2026-05-25T17:29:58Z
+updated_at: 2026-06-01T14:19:38Z
 skills: [{"description": "\u7528\u4e8e\u6574\u4e2a\u5de5\u4f5c\u533a\u4e2d\u7684\u4eba\u5458\u914d\u7f6e\u8bc4\u4f30\u3001\u4eba\u624d\u5e02\u573a\u7b5b\u9009/\u6539\u9020\u4e0e\u65b0 agent \u5efa\u6863", "id": "90f903c7-d597-4d48-b25f-95be46eaa0df", "name": "\u62db\u8058\u4e13\u5458\u5c97\u4f4d\u8bbe\u8ba1"}]
-runtime_mode: "local"
+runtime_mode: local
 max_concurrent_tasks: 2
 ---
+
 
 # Agent 档案: 高级巡视员
 

@@ -1,16 +1,17 @@
 ---
-name: "工作区巡视官"
-agent_id: "a387cb4c-e29a-40ea-9233-36791cd137fb"
-description: "负责跨项目巡检任务停滞、状态失真与流程断链，并推动责任 agent 完成闭环收口"
-model: "mimo-v2.5-pro"
-status: "idle"
-visibility: "workspace"
-created_at: "2026-05-25T15:55:50Z"
-updated_at: "2026-05-29T04:31:36Z"
+name: 工作区巡视官
+agent_id: a387cb4c-e29a-40ea-9233-36791cd137fb
+description: 负责跨项目巡检任务停滞、状态失真与流程断链，并推动责任 agent 完成闭环收口
+model: custom:gpt-5.5
+status: idle
+visibility: workspace
+created_at: 2026-05-25T15:55:50Z
+updated_at: 2026-06-06T12:30:31Z
 skills: [{"description": "\u7528\u4e8e\u6574\u4e2a\u5de5\u4f5c\u533a\u4e2d\u7684\u4eba\u5458\u914d\u7f6e\u8bc4\u4f30\u3001\u4eba\u624d\u5e02\u573a\u7b5b\u9009/\u6539\u9020\u4e0e\u65b0 agent \u5efa\u6863", "id": "90f903c7-d597-4d48-b25f-95be46eaa0df", "name": "\u62db\u8058\u4e13\u5458\u5c97\u4f4d\u8bbe\u8ba1"}]
-runtime_mode: "local"
+runtime_mode: local
 max_concurrent_tasks: 3
 ---
+
 
 # Agent 档案: 工作区巡视官
 

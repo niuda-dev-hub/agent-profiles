@@ -1,16 +1,17 @@
 ---
-name: "小十"
-agent_id: "b54dd43b-2d99-45ed-a019-ae6f189fb5df"
-description: "opencode 免费模型"
-model: "opencode/big-pickle"
-status: "idle"
-visibility: "workspace"
-created_at: "2026-05-19T01:13:41Z"
-updated_at: "2026-05-21T00:15:49Z"
+name: 小十
+agent_id: b54dd43b-2d99-45ed-a019-ae6f189fb5df
+description: opencode 免费模型
+model: opencode/big-pickle
+status: idle
+visibility: workspace
+created_at: 2026-05-19T01:13:41Z
+updated_at: 2026-05-21T00:15:49Z
 skills: []
-runtime_mode: "local"
+runtime_mode: local
 max_concurrent_tasks: 6
 ---
+
 
 # Agent 档案: 小十
 

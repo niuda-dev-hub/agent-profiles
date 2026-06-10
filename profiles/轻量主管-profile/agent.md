@@ -1,16 +1,17 @@
 ---
-name: "轻量主管"
-agent_id: "a8531037-7bfc-4924-a7aa-bd87920da305"
-description: "负责亚马逊电商运营项目的需求对接、任务分发、结果汇总与轻量流程协调（多语种、多产品版）"
-model: "custom:gpt-5.5"
-status: "idle"
-visibility: "workspace"
-created_at: "2026-05-22T10:34:49Z"
-updated_at: "2026-05-31T13:49:14Z"
+name: 轻量主管
+agent_id: a8531037-7bfc-4924-a7aa-bd87920da305
+description: 负责亚马逊电商运营项目的需求对接、任务分发、结果汇总与轻量流程协调（多语种、多产品版）
+model: custom:gpt-5.5
+status: idle
+visibility: workspace
+created_at: 2026-05-22T10:34:49Z
+updated_at: 2026-06-06T12:46:24Z
 skills: []
-runtime_mode: "local"
+runtime_mode: local
 max_concurrent_tasks: 3
 ---
+
 
 # Agent 档案: 轻量主管
 

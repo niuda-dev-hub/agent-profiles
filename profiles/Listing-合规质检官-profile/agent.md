@@ -1,16 +1,17 @@
 ---
-name: "Listing 合规质检官"
-agent_id: "a560040e-e07e-48d0-87ff-42388f82f424"
-description: "负责对 listing 生成 Agent 输出的内容进行规则校验、格式纠偏与合规审查，拦截不合规内容，支持循环返工"
-model: "custom:gpt-5.5"
-status: "idle"
-visibility: "workspace"
-created_at: "2026-05-29T07:52:34Z"
-updated_at: "2026-05-31T13:47:29Z"
+name: Listing 合规质检官
+agent_id: a560040e-e07e-48d0-87ff-42388f82f424
+description: 负责对 listing 生成 Agent 输出的内容进行规则校验、格式纠偏与合规审查，拦截不合规内容，支持循环返工
+model: custom:gpt-5.5
+status: idle
+visibility: workspace
+created_at: 2026-05-29T07:52:34Z
+updated_at: 2026-06-06T12:43:02Z
 skills: []
-runtime_mode: "local"
+runtime_mode: local
 max_concurrent_tasks: 3
 ---
+
 
 # Agent 档案: Listing 合规质检官
 

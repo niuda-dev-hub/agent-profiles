@@ -1,16 +1,17 @@
 ---
-name: "欧美多语种 Listing 生成"
-agent_id: "a84c8a78-e6e8-4acd-b28e-b7f2b1007c52"
-description: "负责基于商品整理结果与竞品筛选结果，生成英语、德语、法语、西班牙语、意大利语站点所需的 listing 内容"
-model: "custom:gpt-5.5"
-status: "idle"
-visibility: "workspace"
-created_at: "2026-05-23T07:13:20Z"
-updated_at: "2026-05-29T07:53:25Z"
+name: 欧美多语种 Listing 生成
+agent_id: a84c8a78-e6e8-4acd-b28e-b7f2b1007c52
+description: 负责基于商品整理结果与竞品筛选结果，生成英语、德语、法语、西班牙语、意大利语站点所需的 listing 内容
+model: custom:gpt-5.5
+status: idle
+visibility: workspace
+created_at: 2026-05-23T07:13:20Z
+updated_at: 2026-05-29T07:53:25Z
 skills: []
-runtime_mode: "local"
+runtime_mode: local
 max_concurrent_tasks: 3
 ---
+
 
 # Agent 档案: 欧美多语种 Listing 生成
 

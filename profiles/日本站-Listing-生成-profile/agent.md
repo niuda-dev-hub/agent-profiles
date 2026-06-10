@@ -1,16 +1,17 @@
 ---
-name: "日本站 Listing 生成"
-agent_id: "b1c529cb-a565-44f8-883c-49a8a8f44403"
-description: "负责基于商品整理结果与竞品筛选结果，生成亚马逊日本站所需的 listing 内容；保留日语专用，但适配多产品"
-model: "custom:mimo-v2.5-pro"
-status: "idle"
-visibility: "workspace"
-created_at: "2026-05-22T12:37:44Z"
-updated_at: "2026-06-01T00:15:49Z"
+name: 日本站 Listing 生成
+agent_id: b1c529cb-a565-44f8-883c-49a8a8f44403
+description: 负责基于商品整理结果与竞品筛选结果，生成亚马逊日本站所需的 listing 内容；保留日语专用，但适配多产品
+model: custom:Gemini 3.5 Flash
+status: idle
+visibility: workspace
+created_at: 2026-05-22T12:37:44Z
+updated_at: 2026-06-01T16:20:04Z
 skills: []
-runtime_mode: "local"
+runtime_mode: local
 max_concurrent_tasks: 3
 ---
+
 
 # Agent 档案: 日本站 Listing 生成
 

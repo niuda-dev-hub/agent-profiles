@@ -1,16 +1,17 @@
 ---
-name: "初九"
-agent_id: "d934df23-657a-4319-acc3-08272930e86c"
-description: "test"
-model: "mimo-v2.5"
-status: "idle"
-visibility: "workspace"
-created_at: "2026-05-19T01:10:20Z"
-updated_at: "2026-05-29T03:22:46Z"
+name: 初九
+agent_id: d934df23-657a-4319-acc3-08272930e86c
+description: test
+model: custom:gpt-5.5
+status: idle
+visibility: workspace
+created_at: 2026-05-19T01:10:20Z
+updated_at: 2026-06-01T14:19:14Z
 skills: []
-runtime_mode: "local"
+runtime_mode: local
 max_concurrent_tasks: 6
 ---
+
 
 # Agent 档案: 初九
 

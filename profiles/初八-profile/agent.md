@@ -1,16 +1,17 @@
 ---
-name: "初八"
-agent_id: "0921a945-e5e2-4af9-8d15-f3497caba9a2"
-description: "第一个智能体，用来测试multica"
-model: "mimo-v2.5-pro"
-status: "working"
-visibility: "workspace"
-created_at: "2026-05-19T00:36:01Z"
-updated_at: "2026-06-01T01:00:07Z"
+name: 初八
+agent_id: 0921a945-e5e2-4af9-8d15-f3497caba9a2
+description: 第一个智能体，用来测试multica
+model: custom:agnes-2.0-flash
+status: working
+visibility: workspace
+created_at: 2026-05-19T00:36:01Z
+updated_at: 2026-06-10T01:00:18Z
 skills: []
-runtime_mode: "local"
+runtime_mode: local
 max_concurrent_tasks: 6
 ---
+
 
 # Agent 档案: 初八
 
