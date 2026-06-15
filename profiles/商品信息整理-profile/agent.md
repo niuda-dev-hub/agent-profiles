@@ -2,15 +2,16 @@
 name: 商品信息整理
 agent_id: 822655a1-984a-45d7-8754-73e80b7b8348
 description: 负责整理商品原始资料，提取结构化商品信息，标记缺失与冲突，为后续多产品、多站点 listing 生成提供干净输入
-model: custom:minimax-m2.7
+model: custom:kimi-k2.7
 status: idle
 visibility: workspace
 created_at: 2026-05-22T11:40:53Z
-updated_at: 2026-05-31T12:54:27Z
+updated_at: 2026-06-13T14:54:43Z
 skills: []
 runtime_mode: local
 max_concurrent_tasks: 3
 ---
+
 
 
 # Agent 档案: 商品信息整理
@@ -21,13 +22,13 @@ max_concurrent_tasks: 3
 |-------|-------|
 | 名称 | 商品信息整理 |
 | ID | `822655a1-984a-45d7-8754-73e80b7b8348` |
-| 模型 | `mimo-v2.5-pro` |
-| 运行模式 | local (runtime `18271ffc-a989-4b4a-8241-cc6dcd7a3e01`) |
+| 模型 | `custom:kimi-k2.7` |
+| 运行模式 | local |
 | 并发任务上限 | 3 |
 | 可见性 | workspace |
 | 状态 | idle |
-| 创建时间 | 2026-05-22 11:40:53 UTC |
-| 最后更新 | 2026-05-29 10:43:36 UTC |
+| 创建时间 | 2026-05-22T11:40:53Z |
+| 最后更新 | 2026-06-13T14:54:43Z |
 
 ## 简介
 

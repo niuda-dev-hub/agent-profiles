@@ -13,6 +13,7 @@ max_concurrent_tasks: 6
 ---
 
 
+
 # Agent 档案: 小十
 
 ## 基本信息
@@ -22,12 +23,12 @@ max_concurrent_tasks: 6
 | 名称 | 小十 |
 | ID | `b54dd43b-2d99-45ed-a019-ae6f189fb5df` |
 | 模型 | `opencode/big-pickle` |
-| 运行模式 | local (runtime `a4e637b6-442e-4622-8b71-68a42d78fc13`) |
+| 运行模式 | local |
 | 并发任务上限 | 6 |
 | 可见性 | workspace |
 | 状态 | idle |
-| 创建时间 | 2026-05-19 01:13:41 UTC |
-| 最后更新 | 2026-05-21 00:15:49 UTC |
+| 创建时间 | 2026-05-19T01:13:41Z |
+| 最后更新 | 2026-05-21T00:15:49Z |
 
 ## 简介
 

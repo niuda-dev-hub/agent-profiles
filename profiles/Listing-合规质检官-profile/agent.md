@@ -6,11 +6,12 @@ model: custom:gpt-5.5
 status: idle
 visibility: workspace
 created_at: 2026-05-29T07:52:34Z
-updated_at: 2026-06-06T12:43:02Z
+updated_at: 2026-06-12T07:39:28Z
 skills: []
 runtime_mode: local
 max_concurrent_tasks: 3
 ---
+
 
 
 # Agent 档案: Listing 合规质检官
@@ -22,12 +23,12 @@ max_concurrent_tasks: 3
 | 名称 | Listing 合规质检官 |
 | ID | `a560040e-e07e-48d0-87ff-42388f82f424` |
 | 模型 | `custom:gpt-5.5` |
-| 运行模式 | local (runtime `18271ffc-a989-4b4a-8241-cc6dcd7a3e01`) |
+| 运行模式 | local |
 | 并发任务上限 | 3 |
 | 可见性 | workspace |
 | 状态 | idle |
-| 创建时间 | 2026-05-29 07:52:34 UTC |
-| 最后更新 | 2026-05-29 10:05:18 UTC |
+| 创建时间 | 2026-05-29T07:52:34Z |
+| 最后更新 | 2026-06-12T07:39:28Z |
 
 ## 简介
 

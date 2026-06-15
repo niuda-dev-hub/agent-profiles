@@ -2,15 +2,16 @@
 name: 日本站 Listing 生成
 agent_id: b1c529cb-a565-44f8-883c-49a8a8f44403
 description: 负责基于商品整理结果与竞品筛选结果，生成亚马逊日本站所需的 listing 内容；保留日语专用，但适配多产品
-model: custom:Gemini 3.5 Flash
+model: kimi-k2.7
 status: idle
 visibility: workspace
 created_at: 2026-05-22T12:37:44Z
-updated_at: 2026-06-01T16:20:04Z
+updated_at: 2026-06-13T14:54:24Z
 skills: []
 runtime_mode: local
 max_concurrent_tasks: 3
 ---
+
 
 
 # Agent 档案: 日本站 Listing 生成
@@ -21,13 +22,13 @@ max_concurrent_tasks: 3
 |-------|-------|
 | 名称 | 日本站 Listing 生成 |
 | ID | `b1c529cb-a565-44f8-883c-49a8a8f44403` |
-| 模型 | `custom:gpt-5.5` |
-| 运行模式 | local (runtime `18271ffc-a989-4b4a-8241-cc6dcd7a3e01`) |
+| 模型 | `kimi-k2.7` |
+| 运行模式 | local |
 | 并发任务上限 | 3 |
 | 可见性 | workspace |
 | 状态 | idle |
-| 创建时间 | 2026-05-22 12:37:44 UTC |
-| 最后更新 | 2026-05-29 08:50:11 UTC |
+| 创建时间 | 2026-05-22T12:37:44Z |
+| 最后更新 | 2026-06-13T14:54:24Z |
 
 ## 简介
 

@@ -2,15 +2,16 @@
 name: 轻量主管
 agent_id: a8531037-7bfc-4924-a7aa-bd87920da305
 description: 负责亚马逊电商运营项目的需求对接、任务分发、结果汇总与轻量流程协调（多语种、多产品版）
-model: custom:gpt-5.5
+model: kimi-k2.7
 status: idle
 visibility: workspace
 created_at: 2026-05-22T10:34:49Z
-updated_at: 2026-06-06T12:46:24Z
+updated_at: 2026-06-13T14:54:08Z
 skills: []
 runtime_mode: local
 max_concurrent_tasks: 3
 ---
+
 
 
 # Agent 档案: 轻量主管
@@ -21,13 +22,13 @@ max_concurrent_tasks: 3
 |-------|-------|
 | 名称 | 轻量主管 |
 | ID | `a8531037-7bfc-4924-a7aa-bd87920da305` |
-| 模型 | `custom:gpt-5.5` |
-| 运行模式 | local (runtime `476f3b14-3f61-40e1-86c8-cfc601a89b68`) |
+| 模型 | `kimi-k2.7` |
+| 运行模式 | local |
 | 并发任务上限 | 3 |
 | 可见性 | workspace |
 | 状态 | idle |
-| 创建时间 | 2026-05-22 10:34:49 UTC |
-| 最后更新 | 2026-05-29 09:19:04 UTC |
+| 创建时间 | 2026-05-22T10:34:49Z |
+| 最后更新 | 2026-06-13T14:54:08Z |
 
 ## 简介
 

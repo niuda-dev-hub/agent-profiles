@@ -2,15 +2,16 @@
 name: 欧美多语种 Listing 生成
 agent_id: a84c8a78-e6e8-4acd-b28e-b7f2b1007c52
 description: 负责基于商品整理结果与竞品筛选结果，生成英语、德语、法语、西班牙语、意大利语站点所需的 listing 内容
-model: custom:gpt-5.5
+model: custom:kimi-k2.7
 status: idle
 visibility: workspace
 created_at: 2026-05-23T07:13:20Z
-updated_at: 2026-05-29T07:53:25Z
+updated_at: 2026-06-13T14:56:56Z
 skills: []
 runtime_mode: local
 max_concurrent_tasks: 3
 ---
+
 
 
 # Agent 档案: 欧美多语种 Listing 生成
@@ -21,13 +22,13 @@ max_concurrent_tasks: 3
 |-------|-------|
 | 名称 | 欧美多语种 Listing 生成 |
 | ID | `a84c8a78-e6e8-4acd-b28e-b7f2b1007c52` |
-| 模型 | `custom:gpt-5.5` |
-| 运行模式 | local (runtime `18271ffc-a989-4b4a-8241-cc6dcd7a3e01`) |
+| 模型 | `custom:kimi-k2.7` |
+| 运行模式 | local |
 | 并发任务上限 | 3 |
 | 可见性 | workspace |
 | 状态 | idle |
-| 创建时间 | 2026-05-23 07:13:20 UTC |
-| 最后更新 | 2026-05-29 07:53:25 UTC |
+| 创建时间 | 2026-05-23T07:13:20Z |
+| 最后更新 | 2026-06-13T14:56:56Z |
 
 ## 简介
 
