@@ -2,11 +2,11 @@
 name: 提示词优化师
 agent_id: 0cb32bbb-1abf-4a55-b13b-1557f6b1affe
 description: 负责对工作区所有 agent 的系统 prompt / soul.md / agent.md 进行版本化审查、结构化优化与一致性治理
-model: gpt-5.4
+model: custom:mimo-v2.5-pro
 status: idle
 visibility: workspace
 created_at: 2026-06-13T14:22:53Z
-updated_at: 2026-06-14T02:19:11Z
+updated_at: 2026-06-15T01:39:38Z
 skills: []
 runtime_mode: local
 max_concurrent_tasks: 3
