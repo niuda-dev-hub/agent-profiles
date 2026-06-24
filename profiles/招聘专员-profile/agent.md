@@ -2,11 +2,11 @@
 name: 招聘专员
 agent_id: d847ab45-646b-4a28-a95c-1a664555c9c2
 description: 负责整个工作区的人才招聘、人员配置评估、新员工建档与外部候选改造
-model: kimi-k2.7
+model: custom:gpt-5.5
 status: idle
 visibility: workspace
 created_at: 2026-05-19T06:16:12Z
-updated_at: 2026-06-13T14:25:37Z
+updated_at: 2026-06-20T10:59:16Z
 skills: [{"id": "90f903c7-d597-4d48-b25f-95be46eaa0df", "name": "招聘专员岗位设计", "description": "用于整个工作区中的人员配置评估、人才市场筛选/改造与新 agent 建档"}]
 runtime_mode: local
 max_concurrent_tasks: 6

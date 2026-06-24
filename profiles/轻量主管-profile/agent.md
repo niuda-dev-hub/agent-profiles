@@ -2,11 +2,11 @@
 name: 轻量主管
 agent_id: a8531037-7bfc-4924-a7aa-bd87920da305
 description: 负责亚马逊电商运营项目的需求对接、任务分发、结果汇总与轻量流程协调（多语种、多产品版）
-model: kimi-k2.7
+model: custom:gpt-5.5
 status: idle
 visibility: workspace
 created_at: 2026-05-22T10:34:49Z
-updated_at: 2026-06-13T14:54:08Z
+updated_at: 2026-06-20T10:59:43Z
 skills: []
 runtime_mode: local
 max_concurrent_tasks: 3
